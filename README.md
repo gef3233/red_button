@@ -7,12 +7,12 @@ Linux drivers for Dream Cheeky Big red button (http://www.dreamcheeky.com/big-re
 Usage:
 ------
 
-./button <program to exec>
+./button \<program to exec\>
 
 Dependencies:
 ----------
 
-Compile with gcc -o button button.c `pkg-config --libs --cflags libusb-1.0`
+Compile with gcc -o button button.c \`pkg-config --libs --cflags libusb-1.0\`
 It depends of libusb-1.0-0-dev
 
 License:
